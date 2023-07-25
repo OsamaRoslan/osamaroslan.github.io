@@ -37,7 +37,7 @@ ul {
     background-color: #b31217;
 }
 
-iframe {
+iframe{
     margin: auto;
     height: 900px;
     border: none;
@@ -80,7 +80,17 @@ iframe {
     color: #171717;
 }
 
-caption {
-    color: #ededed;
-    text-align: center;
+#achieve a {
+    color: black;
+    text-decoration: none;
+}
+
+#achieve a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#achieve a:active {
+    color: navy;
+    text-decoration: underline;
 }
