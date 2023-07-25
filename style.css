@@ -34,10 +34,53 @@ ul {
     }
 
     li a:hover {
-    background-color: #8B0000;
+    background-color: #b31217;
 }
+
 iframe {
     margin: auto;
     height: 900px;
     border: none;
+}
+
+/* Table Stlye */
+#achieve {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    color: black;
+    background-color: white;
+}
+
+#achieve td, #achieve th {
+    text-align: left;
+    border: 1.5px solid rgb(80, 9, 9);
+    padding: 8px;
+    text-align: center;
+}
+
+#achieve tr:nth-child(even) {
+    background-color: rgb(217, 217, 217);
+}
+
+#achieve tr:hover {
+    background-color: #e52d27;
+    color: white;
+}
+
+#achieve th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #93291E;
+  color: white;
+}
+
+#achieve td {
+    color: #171717;
+}
+
+caption {
+    color: #ededed;
+    text-align: center;
 }
