@@ -1,7 +1,18 @@
 body {
+    font-family: "Noto Sans", sans-serif;
     background-color: #171717;
     color: #EDEDED;
 }
+
+h1 {
+    font-family: Oswald, sans-serif;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #EDEDED;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,7 +38,6 @@ ul {
 }
 iframe {
     margin: auto;
-    width: 50%;
     height: 900px;
     border: none;
 }
