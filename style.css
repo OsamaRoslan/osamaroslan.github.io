@@ -26,6 +26,8 @@ ul {
     background-color: #8B0000;
 }
 iframe {
-    height: 350px;
+    margin: auto;
+    width: 50%;
+    height: 900px;
     border: none;
 }
