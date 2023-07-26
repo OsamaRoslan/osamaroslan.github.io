@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<style>
+    a.name {
+        text-decoration: none;
+        color: black;
+    }
+    a.name:hover {
+        text-decoration: underline;
+        color: tomato;
+    }
+    a.name:active {
+        text-decoration: underline;
+        color: blue;
+    }
+</style>
+<body>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
