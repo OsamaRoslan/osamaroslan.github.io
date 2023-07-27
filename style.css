@@ -4,9 +4,7 @@ body {
     color: #EDEDED;
 }
 
-h1 {
-    font-family: Oswald, sans-serif;
-}
+h1 {font-family: Oswald, sans-serif;}
 
 code {
     font-family: 'Courier New', Courier, monospace;
@@ -21,9 +19,7 @@ ul {
     background-color: #D70040;
     }
 
-    li {
-    float: left;
-    }
+    li {float: left;}
 
     li a {
     display: block;
@@ -33,15 +29,9 @@ ul {
     text-decoration: none;
     }
 
-    li a:hover {
-    background-color: #b31217;
-}
+    li a:hover {background-color: #b31217;}
 
-iframe{
-    margin: auto;
-    height: 900px;
-    border: none;
-}
+iframe{margin: auto; height: 900px; border: none;}
 
 /* Table Stlye */
 #achieve {
@@ -60,14 +50,9 @@ iframe{
     text-align: center;
 }
 
-#achieve tr:nth-child(even) {
-    background-color: rgb(217, 217, 217);
-}
+#achieve tr:nth-child(even) {background-color: rgb(217, 217, 217);}
 
-#achieve tr:hover {
-    background-color: #e52d27;
-    color: white;
-}
+#achieve tr:hover {background-color: #e52d27; color: white;}
 
 #achieve th {
   padding-top: 12px;
@@ -76,21 +61,12 @@ iframe{
   color: white;
 }
 
-#achieve td {
-    color: #171717;
-}
+#achieve td {color: #171717;}
 
-#achieve a {
-    color: black;
-    text-decoration: none;
-}
+#achieve a {color: black; text-decoration: none;}
 
-#achieve a:hover {
-    color: white;
-    text-decoration: underline;
-}
+#achieve a:hover {color: white; text-decoration: underline;}
 
-#achieve a:active {
-    color: navy;
-    text-decoration: underline;
-}
+#achieve a:active {color: navy; text-decoration: underline;}
+
+caption {color: white;}
