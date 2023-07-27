@@ -47,7 +47,7 @@ iframe{
 #achieve {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 70%;
+    max-width: 1000%;
     margin: auto;
     color: black;
     background-color: white;
