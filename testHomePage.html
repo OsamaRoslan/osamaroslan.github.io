@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <style>
+    /* Add your custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .image {
+      flex: 1;
+      padding: 10px;
+      /* Add parallax effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .cover {
+      flex: 1;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+    .social-media {
+      margin-top: 20px;
+    }
+    .social-media a {
+      display: inline-block;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+    /* Media query for responsiveness */
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Photographer</p>
+  </header>
+  <nav>
+    <!-- Replace "#" with links to your portfolio sections -->
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="container">
+    <div class="image" style="background-image: url('your-image.jpg');">
+      <!-- No need for an <img> element, as we set the background image using CSS -->
+    </div>
+    <div class="cover">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo turpis nec eros varius, eget feugiat ipsum varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+      <div class="social-media">
+        <!-- Add your social media links here -->
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <!-- Add your footer content here -->
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+  <script>
+    // JavaScript to add the parallax effect
+    window.addEventListener('scroll', function() {
+      const parallax = document.querySelector('.image');
+      let scrollPosition = window.pageYOffset;
+      parallax.style.transform = 'translateY(' + scrollPosition * 0.4 + 'px)';
+    });
+  </script>
+</body>
+</html>
