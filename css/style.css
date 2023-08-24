@@ -277,12 +277,10 @@ nav ul li a {
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
-  border-radius: 25px;
-  background: hsla(0, 0%, 0%, 0.7);
+  background-color: hsla(0, 0%, 0%, 0.7);
   text-align: center;
   padding: 5px;
-  width: 570px;
-  height: 35px;
+  border-radius: max(0px, min(16px, (100% - 400px + 1px) * 9999)) / 16px;
 }
 
 .header-content .list-social li {
